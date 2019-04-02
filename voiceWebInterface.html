@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="">
+     <meta name="author" content="">
+     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+     <title> Send Commands </title> 
+     <script src="{{url_for('static',filename='jquery.js')}}"></script>
+   
+ 
+ </head>
+ 
+ <body>
+ 
+     <div class="container">
+        <h1>Voice Controlled Home automation App</h1>
+        <hr>
+        <p width="100%">
+
+        </p>
+         <form class="form-signin" action="/voiceWebInterface" method="post" role="form">
+             <h2 class="form-signin-heading"> Speak into the microphone </h2>
+             <input id="note-textarea"  type="input" name="command" class="form-control" placeholder="Enter Command" required autofocus>
+ 
+             <button id="send-command" class="btn btn-lg btn-primary btn-block" type="button">Send Command </button>
+             <br>
+             <button id="start-record-btn" title="Start Recording">Restart</button>
+             &emsp;&emsp;&emsp;
+         </form>
+
+
+        </div>
+        <script src="{{url_for('static',filename='voice_json.js')}}"></script>      
+
+     </div>
+   
+ </body>
+ 
+ </html>

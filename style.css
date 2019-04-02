@@ -1,0 +1,151 @@
+b{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:10%;
+    background-color: beige;
+
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+.reply
+{   padding: 2%;
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    color: rgb(14, 9, 75);
+    background-color: #c2eff5
+}
+.mine
+{
+    color: rgb(8, 5, 41);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    padding: 2%;
+    display: block;
+}
+button{
+    position: relative;
+    margin: 5%;
+    background-color: rgb(52, 52, 214);
+    border:0px;
+    border-radius: 3px;
+    padding: 3%;
+    width: fit-content;
+    height: 20%;
+    color: white;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.5s;
+
+}
+button:focus {
+    outline: 0;
+}
+button:hover{
+    background-color: rgb(40, 40, 180);
+
+    box-shadow: 0px 0px 0px 0 rgba(252, 252, 252, 0.2);
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+
+
+input
+{
+    width: 30%;
+    height: 10%px;
+    border-radius:5px;
+    border: solid rgb(131, 205, 240);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:5px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+input::placeholder
+{
+    text-align: center;
+}
